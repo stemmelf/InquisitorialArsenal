@@ -1,11 +1,13 @@
 
 go anonymous mode
 
-http://localhost:8080/
+http://localhost:8080/InquisitorialArsenal/
 
-http://localhost:8080/api/customers log as bill / gates
-http://localhost:8080/admin -> denied
+log as titus / kappa
+http://localhost:8080/InquisitorialArsenal/admin -> denied
+http://localhost:8080/InquisitorialArsenal/user -> granted
 
-http://localhost:8080/api/customers log as steve / jobs
-http://localhost:8080/admin -> granted
+log as globus / varaak
+http://localhost:8080/InquisitorialArsenal/admin -> granted
+http://localhost:8080/InquisitorialArsenal/user -> denied
 
